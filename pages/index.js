@@ -1,3 +1,4 @@
+import '../styles/globals.css';
 import { getGalleryData } from '../lib/gallery';
 import { useState } from 'react';
 
