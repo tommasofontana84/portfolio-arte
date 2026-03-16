@@ -1,17 +1,19 @@
 {
   "name": "portfolio-mamma",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest"
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.4.31"
   }
 }
